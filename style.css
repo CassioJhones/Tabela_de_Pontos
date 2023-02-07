@@ -1,0 +1,75 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/free-vector/background-with-natural-landscape-video-calls_23-2148639590.jpg?w=2000");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  border: #000000 solid 2px;
+}
+
+h1 {
+  color: rgb(25, 24, 24);
+}
+
+th,
+tr,
+td {
+  color: rgb(49, 47, 47);
+  text-align: center;
+  border: #000000 solid 2px;
+}
+
+button {
+  background-color: #81fbb8;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(200, 255, 0);
+}
+
+#vitoria {
+  background-color: rgb(66, 247, 66);
+  font-weight: bold;
+  color: #479849;
+}
+
+#derrota {
+  background-color: rgb(247, 66, 66);
+  font-weight: bold;
+  color: #f6f2f2;
+}
+
+#campoNomeJogador {
+  border-radius: 15px;
+}
+
+.botaoAcao {
+  color: black;
+  background-color: white;
+  width: 25%;
+  cursor: pointer;
+}
+
+input {
+  width: 40%;
+  height: 40px;
+  margin-top: 20px;
+}
